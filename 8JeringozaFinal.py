@@ -5,7 +5,7 @@
 L=["perro","gato","canario","elefante","lobo","delfin"]
 
 def traducir(L):
-    string=""    
+    string=""
 
     for palabra in L:
 
@@ -23,7 +23,7 @@ def traducir(L):
             palabraTraducida+="."
         else:
             palabraTraducida+=", "
-
+            
         string+=palabraTraducida        
 
     print(string)
