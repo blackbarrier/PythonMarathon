@@ -131,3 +131,25 @@ Out[104]: [4, 33, 12, 9, 6, 5, 3, 2, 1, 0]
 In [105]: L.insert(-1,"final")
 In [106]: L
 Out[106]: [4, 33, 12, 9, 6, 5, 3, 2, 1, 'final', 0]
+
+
+#Bucle FOR
+# In [3]: for i in range(5):
+#    ...:     print("printing")
+#    ...:
+# printing
+# printing
+# printing
+# printing
+# printing
+
+# In [4]: L = [1,2,3,4,5]
+
+# In [5]: for i in L:
+#    ...:     print(i)
+#    ...:
+# 1
+# 2
+# 3
+# 4
+# 5
