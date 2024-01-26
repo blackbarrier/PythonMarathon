@@ -4,4 +4,4 @@ empiezo = time.time()
 input("escribe algo:\n")
 termino = time.time()
 
-print("tardaste", empiezo, "segundos")
+print("tardaste", termino-empiezo, "segundos")
