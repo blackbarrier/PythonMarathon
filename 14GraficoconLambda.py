@@ -16,7 +16,7 @@ plt.ylabel("Eje y")
 
 #(punto de partida, punto final, cantidad de puntos en total entre extremos)
 
-x = np.linspace(-10, 10, 100)
+x = np.linspace(-10, 30, 200)
 
 #Trazo la funcion (valor X, valor Y, otroParametro)
 plt.plot(x,f(x), "mD")
