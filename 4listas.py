@@ -1,6 +1,6 @@
 #Listas indexacion
 
-L = [1,2,3,4,5]
+L = [1,2,3,4,5,6,7]
 print(L)
 
 print("Acceder por indice")
@@ -20,6 +20,7 @@ print(L[-4:-2])
 
 print("Acceder por saltos")
 print(L[::2])
+print(L[::-2])
 
 print("Combinaciones")
 print(L[-1::-1])
